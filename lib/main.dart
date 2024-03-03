@@ -14,8 +14,8 @@ class FaceBook extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        HomeScreen.routeName: (context) => const HomeScreen(),
-        LoginScreen.routeName: (context) => const LoginScreen(),
+        HomeScreen.routeName: (_) => const HomeScreen(),
+        LoginScreen.routeName: (_) => const LoginScreen(),
       },
       initialRoute: LoginScreen.routeName,
     );

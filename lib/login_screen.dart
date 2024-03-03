@@ -23,11 +23,11 @@ class LoginScreen extends StatelessWidget {
                 size: 50,
               ),
               const Spacer(),
-              const Text_Field(
+              const TextFieldCustom(
                 hint: 'Email Address',
                 textInputType: TextInputType.emailAddress,
               ),
-              const Text_Field(
+              const TextFieldCustom(
                 hint: 'Password',
                 obscureText: true,
               ),
@@ -44,10 +44,10 @@ class LoginScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                       backgroundColor: const Color.fromRGBO(78, 104, 161, 1),
-                      foregroundColor: Colors.white.withOpacity(.5)),
-                  child: Text(
+                      foregroundColor: Colors.white),
+                  child: const Text(
                     'LOG IN',
-                    style: TextStyle(color: Colors.white.withOpacity(.5)),
+                    style: TextStyle(color: Colors.white),
                   ),
                 ),
               ),

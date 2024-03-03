@@ -3,7 +3,7 @@ import 'package:facebook/story.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
-  static const String routeName = 'home_screen';
+  static const String routeName = '/';
   const HomeScreen({super.key});
 
   @override
@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
-        physics: const BouncingScrollPhysics(),
+        // physics: const BouncingScrollPhysics(),
         child: Column(
           children: [
             SizedBox(

@@ -43,6 +43,7 @@ class Post extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text('my post',
+                    textAlign: TextAlign.start,
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,

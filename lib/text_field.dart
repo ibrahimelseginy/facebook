@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Text_Field extends StatelessWidget {
+class TextFieldCustom extends StatelessWidget {
   final String hint;
   final TextInputType? textInputType;
   final bool obscureText;
 
-  const Text_Field(
+  const TextFieldCustom(
       {super.key,
       required this.hint,
       this.textInputType,
@@ -19,6 +19,7 @@ class Text_Field extends StatelessWidget {
         style: const TextStyle(color: Colors.white),
         keyboardType: textInputType,
         obscureText: obscureText,
+        cursorColor: Colors.white,
         decoration: InputDecoration(
             enabledBorder: const UnderlineInputBorder(
                 borderSide: BorderSide(color: Colors.white)),
